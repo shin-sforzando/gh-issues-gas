@@ -1,0 +1,25 @@
+{
+  "name": "gh-issues-gas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shin-sforzando/gh-issues-gas.git"
+  },
+  "keywords": [
+    "github"
+  ],
+  "author": "sforzando LLC.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shin-sforzando/gh-issues-gas/issues"
+  },
+  "homepage": "https://github.com/shin-sforzando/gh-issues-gas#readme",
+  "dependencies": {
+    "@google/clasp": "^1.6.3"
+  }
+}
