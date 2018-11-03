@@ -20,6 +20,9 @@
   },
   "homepage": "https://github.com/shin-sforzando/gh-issues-gas#readme",
   "dependencies": {
-    "@google/clasp": "^1.6.3"
+    "@google/clasp": "^1.6.3",
+    "typescript": "^3.1.6",
+    "webpack": "^4.24.0",
+    "webpack-cli": "^3.1.2"
   }
 }
