@@ -1,9 +1,3 @@
-import { sum } from '../';
-
-test('basic', () => {
-  expect(sum()).toBe(0);
-});
-
-test('basic again', () => {
-  expect(sum(1, 2)).toBe(3);
+test('1 = 1', () => {
+  expect(1).toBe(1);
 });
