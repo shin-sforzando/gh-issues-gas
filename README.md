@@ -2,7 +2,9 @@
 
 GitHub Issues Importer from Google Spreadsheet
 
-[TOC]
+- [How to](#how-to)
+  - [Develop](#develop)
+    - [Clasp](#clasp)
 
 ## How to
 ### Develop

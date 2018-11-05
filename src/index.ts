@@ -1,6 +1,13 @@
+let token: string;
+
+const getToken = () => {
+  let ss = SpreadsheetApp.getActiveSpreadsheet();
+  let master = ss.getSheetByName('Master');
+  return master.getRange('A1');
+};
+
 const fetchUserName = () => {
   const url = 'https://api.github.com/graphql';
-  const token = '70d5f83566fe2a1c226e0ba096c2c8f8885407a6';
 
   const graphql = `query {
     viewer {
@@ -21,6 +28,7 @@ const fetchUserName = () => {
   return json;
 };
 
-export function fetch(): void {
-  Logger.log(fetchUserName());
+export function main(): void {
+  Logger.log(getToken());
+  // Logger.log(fetchUserName());
 }
