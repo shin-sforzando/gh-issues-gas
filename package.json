@@ -26,7 +26,7 @@
   "homepage": "https://github.com/shin-sforzando/gh-issues-gas#readme",
   "dependencies": {
     "@google/clasp": "^2.3.0",
-    "@types/google-apps-script": "1.0.14",
+    "@types/google-apps-script": "1.0.46",
     "@types/jest": "^26.0.7",
     "jest": "^26.1.0",
     "prettier": "^2.0.5",
